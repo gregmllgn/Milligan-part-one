@@ -61,8 +61,7 @@ li {
     .parent-container-row {
         display: flex;
         flex-direction: row;
-        
-        
+                
     }
     nav {
         float: right;
@@ -74,10 +73,7 @@ li {
         float: right;
         margin-top: -100px;
     }  
-    h1 {
-        display: flex;
-        justify-content: flex-start;
-    }
+
     header {
         padding: .5px;
     }
