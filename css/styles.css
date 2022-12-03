@@ -48,16 +48,18 @@ li {
     margin: 10px;
     margin-left: -5px;
 }
-@media screen and (max-width: 767px) {
-    img {
-        display: none;
-    }
+.hide-mobile {
+    display: none;
 }
+
 @media screen and (min-width: 768px) {
     button {
         width: auto;
     }
-    
+    .hide-mobile {
+        display: block;
+    }
+       
     .parent-container-row {
         display: flex;
         flex-direction: row;
